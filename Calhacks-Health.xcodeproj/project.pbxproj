@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95A28748F3C10CB710FB4418 /* Pods_Calhacks_Health.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB95A0EEE9BCA157FE6D76B4 /* Pods_Calhacks_Health.framework */; };
+		CBE8F2BD2364536700838075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2BC2364536700838075 /* AppDelegate.swift */; };
+		CBE8F2BF2364536700838075 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2BE2364536700838075 /* SceneDelegate.swift */; };
+		CBE8F2C42364536700838075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE8F2C22364536700838075 /* Main.storyboard */; };
+		CBE8F2C62364536C00838075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE8F2C52364536C00838075 /* Assets.xcassets */; };
+		CBE8F2C92364536C00838075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE8F2C72364536C00838075 /* LaunchScreen.storyboard */; };
+		CBE8F2D1236455DA00838075 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2D0236455DA00838075 /* LoginViewController.swift */; };
+		CBE8F2D7236496A000838075 /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2D6236496A000838075 /* DietViewController.swift */; };
+		CBE8F2DC2364A33C00838075 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2DB2364A33C00838075 /* Recipe.swift */; };
+		CBE8F2DE2364A91000838075 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2DD2364A91000838075 /* RecipeViewController.swift */; };
+		CBE8F2E02364DE2400838075 /* Speech2Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2DF2364DE2400838075 /* Speech2Text.swift */; };
+		CBE8F2E22364F3B700838075 /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2E12364F3B700838075 /* SpeechViewController.swift */; };
+		CBE8F2E4236541E200838075 /* MedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2E3236541E200838075 /* MedicationViewController.swift */; };
+		CBE8F2E6236542D200838075 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2E5236542D200838075 /* Medication.swift */; };
+		CBE8F2E823654AF400838075 /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2E723654AF400838075 /* MedicationDetailViewController.swift */; };
+		CBE8F2EA2365515E00838075 /* Text2Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2E92365515E00838075 /* Text2Speech.swift */; };
+		CBE8F2EC2365634200838075 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE8F2EB2365634200838075 /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4044E83E70E26632F084CD63 /* Pods-Calhacks-Health.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calhacks-Health.debug.xcconfig"; path = "Target Support Files/Pods-Calhacks-Health/Pods-Calhacks-Health.debug.xcconfig"; sourceTree = "<group>"; };
+		6CB001E8D8651D657AE210D3 /* Pods-Calhacks-Health.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calhacks-Health.release.xcconfig"; path = "Target Support Files/Pods-Calhacks-Health/Pods-Calhacks-Health.release.xcconfig"; sourceTree = "<group>"; };
+		BB95A0EEE9BCA157FE6D76B4 /* Pods_Calhacks_Health.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calhacks_Health.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE8F2B92364536700838075 /* Health++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE8F2BC2364536700838075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBE8F2BE2364536700838075 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CBE8F2C32364536700838075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBE8F2C52364536C00838075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBE8F2C82364536C00838075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBE8F2CA2364536C00838075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE8F2D0236455DA00838075 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CBE8F2D6236496A000838075 /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
+		CBE8F2DB2364A33C00838075 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		CBE8F2DD2364A91000838075 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		CBE8F2DF2364DE2400838075 /* Speech2Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speech2Text.swift; sourceTree = "<group>"; };
+		CBE8F2E12364F3B700838075 /* SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		CBE8F2E3236541E200838075 /* MedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewController.swift; sourceTree = "<group>"; };
+		CBE8F2E5236542D200838075 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		CBE8F2E723654AF400838075 /* MedicationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewController.swift; sourceTree = "<group>"; };
+		CBE8F2E92365515E00838075 /* Text2Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2Speech.swift; sourceTree = "<group>"; };
+		CBE8F2EB2365634200838075 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBE8F2B62364536700838075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A28748F3C10CB710FB4418 /* Pods_Calhacks_Health.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C120219ABDBCE635E832E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4044E83E70E26632F084CD63 /* Pods-Calhacks-Health.debug.xcconfig */,
+				6CB001E8D8651D657AE210D3 /* Pods-Calhacks-Health.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		81195D4F4ACE9B11636C8A74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB95A0EEE9BCA157FE6D76B4 /* Pods_Calhacks_Health.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBE8F2B02364536700838075 = {
+			isa = PBXGroup;
+			children = (
+				CBE8F2BB2364536700838075 /* Calhacks-Health */,
+				CBE8F2BA2364536700838075 /* Products */,
+				41C120219ABDBCE635E832E7 /* Pods */,
+				81195D4F4ACE9B11636C8A74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBE8F2BA2364536700838075 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBE8F2B92364536700838075 /* Health++.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBE8F2BB2364536700838075 /* Calhacks-Health */ = {
+			isa = PBXGroup;
+			children = (
+				CBE8F2D2236455E600838075 /* ViewControllers */,
+				CBE8F2DA2364A31400838075 /* Models */,
+				CBE8F2C22364536700838075 /* Main.storyboard */,
+				CBE8F2EB2365634200838075 /* NetworkManager.swift */,
+				CBE8F2CA2364536C00838075 /* Info.plist */,
+				CBE8F2D3236455FD00838075 /* Support */,
+			);
+			path = "Calhacks-Health";
+			sourceTree = "<group>";
+		};
+		CBE8F2D2236455E600838075 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBE8F2D0236455DA00838075 /* LoginViewController.swift */,
+				CBE8F2D6236496A000838075 /* DietViewController.swift */,
+				CBE8F2DD2364A91000838075 /* RecipeViewController.swift */,
+				CBE8F2E3236541E200838075 /* MedicationViewController.swift */,
+				CBE8F2E723654AF400838075 /* MedicationDetailViewController.swift */,
+				CBE8F2E12364F3B700838075 /* SpeechViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CBE8F2D3236455FD00838075 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CBE8F2BC2364536700838075 /* AppDelegate.swift */,
+				CBE8F2BE2364536700838075 /* SceneDelegate.swift */,
+				CBE8F2C52364536C00838075 /* Assets.xcassets */,
+				CBE8F2C72364536C00838075 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		CBE8F2DA2364A31400838075 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CBE8F2DB2364A33C00838075 /* Recipe.swift */,
+				CBE8F2E5236542D200838075 /* Medication.swift */,
+				CBE8F2DF2364DE2400838075 /* Speech2Text.swift */,
+				CBE8F2E92365515E00838075 /* Text2Speech.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBE8F2B82364536700838075 /* Calhacks-Health */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE8F2CD2364536C00838075 /* Build configuration list for PBXNativeTarget "Calhacks-Health" */;
+			buildPhases = (
+				D200FF7BEE49304F64800D2E /* [CP] Check Pods Manifest.lock */,
+				CBE8F2B52364536700838075 /* Sources */,
+				CBE8F2B62364536700838075 /* Frameworks */,
+				CBE8F2B72364536700838075 /* Resources */,
+				4798D9E96C981B38FC1C8AE3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calhacks-Health";
+			productName = "Calhacks-Health";
+			productReference = CBE8F2B92364536700838075 /* Health++.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBE8F2B12364536700838075 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = wcz;
+				TargetAttributes = {
+					CBE8F2B82364536700838075 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = CBE8F2B42364536700838075 /* Build configuration list for PBXProject "Calhacks-Health" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBE8F2B02364536700838075;
+			productRefGroup = CBE8F2BA2364536700838075 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBE8F2B82364536700838075 /* Calhacks-Health */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBE8F2B72364536700838075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE8F2C92364536C00838075 /* LaunchScreen.storyboard in Resources */,
+				CBE8F2C62364536C00838075 /* Assets.xcassets in Resources */,
+				CBE8F2C42364536700838075 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4798D9E96C981B38FC1C8AE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calhacks-Health/Pods-Calhacks-Health-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Calhacks-Health/Pods-Calhacks-Health-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Calhacks-Health/Pods-Calhacks-Health-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D200FF7BEE49304F64800D2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calhacks-Health-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBE8F2B52364536700838075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE8F2E6236542D200838075 /* Medication.swift in Sources */,
+				CBE8F2D7236496A000838075 /* DietViewController.swift in Sources */,
+				CBE8F2D1236455DA00838075 /* LoginViewController.swift in Sources */,
+				CBE8F2EC2365634200838075 /* NetworkManager.swift in Sources */,
+				CBE8F2EA2365515E00838075 /* Text2Speech.swift in Sources */,
+				CBE8F2DE2364A91000838075 /* RecipeViewController.swift in Sources */,
+				CBE8F2E4236541E200838075 /* MedicationViewController.swift in Sources */,
+				CBE8F2BD2364536700838075 /* AppDelegate.swift in Sources */,
+				CBE8F2E823654AF400838075 /* MedicationDetailViewController.swift in Sources */,
+				CBE8F2E22364F3B700838075 /* SpeechViewController.swift in Sources */,
+				CBE8F2BF2364536700838075 /* SceneDelegate.swift in Sources */,
+				CBE8F2DC2364A33C00838075 /* Recipe.swift in Sources */,
+				CBE8F2E02364DE2400838075 /* Speech2Text.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBE8F2C22364536700838075 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE8F2C32364536700838075 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBE8F2C72364536C00838075 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE8F2C82364536C00838075 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBE8F2CB2364536C00838075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBE8F2CC2364536C00838075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBE8F2CE2364536C00838075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4044E83E70E26632F084CD63 /* Pods-Calhacks-Health.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AR968KZAA;
+				INFOPLIST_FILE = "Calhacks-Health/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wcz.Calhacks-Health";
+				PRODUCT_NAME = "Health++";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBE8F2CF2364536C00838075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB001E8D8651D657AE210D3 /* Pods-Calhacks-Health.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9AR968KZAA;
+				INFOPLIST_FILE = "Calhacks-Health/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wcz.Calhacks-Health";
+				PRODUCT_NAME = "Health++";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBE8F2B42364536700838075 /* Build configuration list for PBXProject "Calhacks-Health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE8F2CB2364536C00838075 /* Debug */,
+				CBE8F2CC2364536C00838075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE8F2CD2364536C00838075 /* Build configuration list for PBXNativeTarget "Calhacks-Health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE8F2CE2364536C00838075 /* Debug */,
+				CBE8F2CF2364536C00838075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBE8F2B12364536700838075 /* Project object */;
+}
